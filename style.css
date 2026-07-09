@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.position{
+    padding: 15px 9%;
+    margin: 0px auto;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-part ul{
+    display: flex;
+    gap: 23px;
+    list-style: none;
+    cursor: pointer;
+    color: #6c6c6c;
+}
+.nav-part ul li:hover{
+    color: #c5935d;
+}
+.common-btn button{
+    padding:15px 24px;
+    border: none;
+    background: none;
+    background: #1d4ed8;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+.common-btn button:hover{
+    opacity: 0.7;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url("./image/banner.jpg");
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 380px;
+}
+.header-part{
+    display: grid;
+    gap: 20px;
+}
+.header-part h1{
+    font-size: 55px;
+}
+.header-part p{
+    color: #e1dfdf;
+}
+.Register-btn{
+    padding-top: 50px;
+}
+.Register-btn button{
+     padding:20px 40px;
+    border: none;
+    background: none;
+    background: #1d4ed8;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
