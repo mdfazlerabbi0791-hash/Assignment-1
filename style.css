@@ -31,8 +31,9 @@
     cursor: pointer;
 }
 .common-btn button:hover{
-    opacity: 0.7;
+    opacity: 0.8;
 }
+
 header{
     background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url("./image/banner.jpg");
     height: 90vh;
@@ -69,6 +70,9 @@ header{
     cursor: pointer;
     font-size: 18px;
 }
+.Register-btn button:hover{
+    opacity: 0.7;
+}
 .meet{
     text-align: center;
     padding:45px 0px;
@@ -92,7 +96,12 @@ header{
     background:#ffffff;
     border: 1px solid rgb(234, 230, 230);
     border-radius: 5px;
-    
+    transition: all 0.3s ease;
+
+}
+.Speakers-man:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 .write{
     padding: 15px 20px;
@@ -122,13 +131,21 @@ header{
     align-items: center;
     gap:60px;
 
+
 }
 .cards .cards-part{
     padding: 22px 35px;
     border: 1px solid rgb(204, 202, 202);
     line-height: 1.2;
     border-radius: 18px;
+    transition: all 0.3s ease;
+    
 }
+.cards .cards-part:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
 .cards-part span{
     display: block;
     padding-bottom:15px;
@@ -182,68 +199,59 @@ header{
     cursor: pointer;
 
 }
+ .old-continer{
+      background-color: #f9fafb;
+      padding: 60px 20px;
+ }
 
- .title {
+ .faq-section {
+      background-color: #ffffff;
+      padding: 50px;
+      border-radius: 16px;
+ }
+
+ .faq-section h2 {
       text-align: center;
-      font-size: 36px;
-      font-weight: 700;
-      color: #1f2937;
-      margin-bottom: 30px;
-      margin-top: 60px;
-    }
-
- .cards-center {
-      display: flex;
-      justify-content:space-between;
-      gap: 32px;
-    }
-
- .card-old {
-      flex: 1;
-      max-width: 360px;
-      background: #fff;
-      border-radius: 20px;
-      padding: 40px 32px;
-      box-shadow: 0px 4px 8px;
-      text-align: center;
-      margin-top: 20px;
-      
-    }
-
-
- .avatar {
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 20px;
-    }
-
- .name {
-      font-size: 20px;
+      font-size: 40px;
       font-weight: 700;
       color: #111827;
-      margin-bottom: 4px;
-    }
+      margin-bottom: 40px;
+}
 
- .company {
-      font-size: 14px;
-      font-weight: 500;
+ .faq-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+ }
+
+.faq-card {
+      background-color: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+      border: 1px solid #e5e7eb;
+      padding: 20px;
+      cursor: pointer;
+       transition: all 0.3s ease;
+      
+ }
+.faq-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+  
+ .faq-question {
+      font-size: 20px;
+      font-weight: bold;
+      color: #111827;
+ }
+
+.faq-answer {
+      font-size: 16px;
       color: #6b7280;
-      margin-bottom: 16px;
-    }
-
- .stars {
-      color: #fbbf24;
-      font-size: 18px;
-      letter-spacing: 2px;
-      margin-bottom: 20px;
-    }
-
- .text {
-      font-size: 15px;
-      font-weight: 400;
-      color: #4b5563;
       line-height: 1.7;
-    }
+      margin-top: 10px;
+ }
+    
+
 
