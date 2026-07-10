@@ -200,58 +200,89 @@ header{
 
 }
  .old-continer{
-      background-color: #f9fafb;
-      padding: 60px 20px;
+    background-color: #f9fafb;
+    padding: 20px 20px;
  }
 
- .faq-section {
-      background-color: #ffffff;
-      padding: 50px;
-      border-radius: 16px;
+ .faq-section{
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 16px;
  }
 
- .faq-section h2 {
-      text-align: center;
-      font-size: 40px;
-      font-weight: 700;
-      color: #111827;
-      margin-bottom: 40px;
+ .faq-section h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 40px;
 }
 
- .faq-container {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
+ .faq-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
  }
 
-.faq-card {
-      background-color: #ffffff;
-      border-radius: 15px;
-      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
-      border: 1px solid #e5e7eb;
-      padding: 20px;
-      cursor: pointer;
-       transition: all 0.3s ease;
+.faq-card{
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e5e7eb;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
       
  }
-.faq-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+.faq-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
   
- .faq-question {
-      font-size: 20px;
-      font-weight: bold;
-      color: #111827;
+ .faq-question{
+    font-size: 20px;
+    font-weight: bold;
+    color: #111827;
  }
 
-.faq-answer {
-      font-size: 16px;
-      color: #6b7280;
-      line-height: 1.7;
-      margin-top: 10px;
+.faq-answer{
+    font-size: 16px;
+    color: #6b7280;
+    line-height: 1.7;
+    margin-top: 10px;
  }
+ .footer-part{
+    background: #111827;
+    padding-top:30px;
+    text-align: center;
+ }
+ .footer-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(83, 82, 82);
+ }
+.copy{
+    color: #6a6d73;
+    padding-top: 25px;
+    font-size: 24px;
+}
+.footer-part-two{
+    color:white;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    
+
+}
+.footer-part-two span:hover{
+    transform: translateY(-4px);
+}
+
     
 
 
