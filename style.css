@@ -255,7 +255,7 @@ header{
  .footer-part{
     background: #111827;
     padding-top:30px;
-    text-align: center;
+    /* text-align: center; */
  }
  .footer-main{
     display: flex;
@@ -268,6 +268,13 @@ header{
     color: #6a6d73;
     padding-top: 25px;
     font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.privacy{
+    display: flex;
+    gap: 20px;
 }
 .footer-part-two{
     color:white;
