@@ -40,12 +40,11 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     color: azure;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 380px;
+    
 }
 .header-part{
     display: grid;
@@ -58,7 +57,7 @@ header{
     color: #e1dfdf;
 }
 .Register-btn{
-    padding-top: 50px;
+    padding-top: 150px;
 }
 .Register-btn button{
      padding:20px 40px;
@@ -70,3 +69,39 @@ header{
     cursor: pointer;
     font-size: 18px;
 }
+.meet{
+    text-align: center;
+    padding:45px 0px;
+    font-size: 28px;
+}
+.main-part-first{
+    padding: 30px 0px;
+}
+.Speakers{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+.Speakers-man img{
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+  
+}
+.Speakers-man{
+    background:#ffffff;
+    border: 1px solid rgb(234, 230, 230);
+    border-radius: 5px;
+    
+}
+.write{
+    padding: 15px 20px;
+    line-height: 1.6;
+}
+.write p{ 
+    color: #1d4ed8;
+}
+.write span{
+    color: #636161;
+}
+
